@@ -13,14 +13,14 @@
 
 - (void) awakeFromNib
 {
-	buttonKeys = [[NSMapTable mapTableWithStrongToStrongObjects] retain]; 
+	buttonCodes = [[NSMapTable mapTableWithStrongToStrongObjects] retain]; 
 				
-	[buttonKeys setObject: [NSNumber numberWithInteger: kRemoteButtonPlus] forKey: upButton];
-	[buttonKeys setObject: [NSNumber numberWithInteger: kRemoteButtonMinus] forKey: downButton];
-	[buttonKeys setObject: [NSNumber numberWithInteger: kRemoteButtonLeft] forKey: leftButton];
-	[buttonKeys setObject: [NSNumber numberWithInteger: kRemoteButtonRight] forKey: rightButton];
-	[buttonKeys setObject: [NSNumber numberWithInteger: kRemoteButtonPlay] forKey: playButton];
-	[buttonKeys setObject: [NSNumber numberWithInteger: kRemoteButtonMenu] forKey: menuButton];
+	[buttonCodes setObject: [NSNumber numberWithInteger: kRemoteButtonPlus] forKey: upButton];
+	[buttonCodes setObject: [NSNumber numberWithInteger: kRemoteButtonMinus] forKey: downButton];
+	[buttonCodes setObject: [NSNumber numberWithInteger: kRemoteButtonLeft] forKey: leftButton];
+	[buttonCodes setObject: [NSNumber numberWithInteger: kRemoteButtonRight] forKey: rightButton];
+	[buttonCodes setObject: [NSNumber numberWithInteger: kRemoteButtonPlay] forKey: playButton];
+	[buttonCodes setObject: [NSNumber numberWithInteger: kRemoteButtonMenu] forKey: menuButton];
 
 }
 
@@ -35,14 +35,14 @@
 
 - (void) deactivateKeyCatching
 {
-	setupKeyCode = nil;
+	setupButtonCode = nil;
 	[keyboardMessage setTitleWithMnemonic: @""];
 }
 
 - (void) keyUp:(NSEvent *)theEvent
 {
-	if (setupKeyCode != nil) {
-		[configuration setupRemoteButton: setupKeyCode withKeyCode: theEvent.keyCode];
+	if (setupButtonCode != nil) {
+		[configuration setupRemoteButton: setupButtonCode withKeyCode: (CGKeyCode)theEvent.keyCode];
 		[self deactivateKeyCatching];
 	}
 }
@@ -55,11 +55,11 @@
 
 - (IBAction) changeKey: (NSButton*)sender
 {
-	NSNumber *keyCode = [buttonKeys objectForKey: sender];
-	
+	NSNumber *buttonCode = [buttonCodes objectForKey: sender];
+	NSLog(@"Button Code: %@ from %@\n", buttonCode, sender);
 	[keyboardMessage setTitleWithMnemonic: @"Please enter now a key for this button."];
 	[configurationDialog makeFirstResponder: self];
-	setupKeyCode = keyCode;
+	setupButtonCode = buttonCode;
 }
 
 - (IBAction) changedMouseSpeed: (id)sender

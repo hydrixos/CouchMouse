@@ -134,8 +134,7 @@
 	NSNumber *pressedKey = [NSNumber numberWithInteger: eventDescription.buttonPressed];
 	int keyCode = [configuration getKeyCodeForRemoteButton: [pressedKey intValue]];
 	
-	if (keyCode != 0)
-		postKeyEvent(keyCode, eventDescription.pressedDown);
+	postKeyEvent(keyCode, eventDescription.pressedDown);
 }
 
 #pragma mark Handling Mouse requests

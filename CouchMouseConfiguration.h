@@ -26,7 +26,7 @@ typedef enum {
 -(void) setInputMode:(CouchMouseInputMode)mode;
 
 -(CGKeyCode) getKeyCodeForRemoteButton: (int) buttonKey;
--(void) setupRemoteButton: (NSNumber*) buttonKey withKeyCode: (unsigned short)keyCode;
+-(void) setupRemoteButton: (NSNumber*) buttonKey withKeyCode: (CGKeyCode)keyCode;
 
 -(void) awakeFromNib;
 

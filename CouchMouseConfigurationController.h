@@ -11,8 +11,8 @@
 
 @interface CouchMouseConfigurationController : NSResponder {
 	@private 
-		NSMapTable *buttonKeys;
-		NSNumber *setupKeyCode;
+		NSMapTable *buttonCodes;
+		NSNumber *setupButtonCode;
 	
 	@public
 		IBOutlet CouchMouseConfiguration *configuration;
