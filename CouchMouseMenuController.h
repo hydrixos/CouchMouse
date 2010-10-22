@@ -15,7 +15,7 @@
 	IBOutlet NSMenuItem *disabledModeItem;
 	IBOutlet NSMenuItem *mouseModeItem;
 	IBOutlet NSMenuItem *keyboardModeItem;
-
+	
 	NSStatusItem *statusItem;
 }
 
@@ -25,6 +25,8 @@
 -(IBAction) setDisabledMode:(id)menuItem;
 -(IBAction) setMouseMode:(id)menuItem;
 -(IBAction) setKeyboardMode:(id)menuItem;
+
+-(IBAction) aboutApplication:(id)menuItem;
 -(IBAction) quitApplication:(id)menuItem;
 
 @end

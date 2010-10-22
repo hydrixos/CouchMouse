@@ -12,8 +12,8 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="570"/>
 			<integer value="533"/>
+			<integer value="570"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -93,6 +93,14 @@
 					<object class="NSMenuItem" id="1065355903">
 						<reference key="NSMenu" ref="106458618"/>
 						<string key="NSTitle">Configure...</string>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="884056840"/>
+						<reference key="NSMixedImage" ref="331524201"/>
+					</object>
+					<object class="NSMenuItem" id="692845631">
+						<reference key="NSMenu" ref="106458618"/>
+						<string key="NSTitle">About</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="884056840"/>
@@ -632,6 +640,14 @@
 					</object>
 					<int key="connectionID">625</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">aboutApplication:</string>
+						<reference key="source" ref="931874381"/>
+						<reference key="destination" ref="692845631"/>
+					</object>
+					<int key="connectionID">638</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -682,6 +698,7 @@
 							<reference ref="627341902"/>
 							<reference ref="734351555"/>
 							<reference ref="1065355903"/>
+							<reference ref="692845631"/>
 						</object>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">StatusMenu</string>
@@ -938,6 +955,11 @@
 						<reference key="object" ref="321012327"/>
 						<reference key="parent" ref="667343883"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">637</int>
+						<reference key="object" ref="692845631"/>
+						<reference key="parent" ref="106458618"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -997,11 +1019,12 @@
 					<string>612.IBPluginDependency</string>
 					<string>614.IBPluginDependency</string>
 					<string>615.IBPluginDependency</string>
+					<string>637.IBPluginDependency</string>
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{427, 826}, {193, 123}}</string>
+					<string>{{427, 806}, {193, 143}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -1083,6 +1106,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="unlocalizedProperties">
@@ -1101,7 +1125,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">627</int>
+			<int key="maxID">639</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1294,6 +1318,7 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>aboutApplication:</string>
 							<string>quitApplication:</string>
 							<string>setDisabledMode:</string>
 							<string>setKeyboardMode:</string>
@@ -1301,6 +1326,7 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -1311,6 +1337,7 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>aboutApplication:</string>
 							<string>quitApplication:</string>
 							<string>setDisabledMode:</string>
 							<string>setKeyboardMode:</string>
@@ -1318,6 +1345,10 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBActionInfo">
+								<string key="name">aboutApplication:</string>
+								<string key="candidateClassName">id</string>
+							</object>
 							<object class="IBActionInfo">
 								<string key="name">quitApplication:</string>
 								<string key="candidateClassName">id</string>

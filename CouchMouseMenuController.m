@@ -80,6 +80,11 @@
 	[configuration setInputMode: KeyboardState];
 }
 
+-(IBAction) aboutApplication:(id)menuItem
+{
+	[NSApp orderFrontStandardAboutPanel: self];	
+}
+
 -(IBAction) quitApplication:(id)menuItem
 {
 	[NSApp terminate:self];

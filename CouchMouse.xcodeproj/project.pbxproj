@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* CouchMouseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* CouchMouseAppDelegate.m */; };
+		7955A55A12719F3B009B4CCF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7955A55912719F3B009B4CCF /* Credits.rtf */; };
 		7985F605127081A600148B52 /* event-trigger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7985F604127081A600148B52 /* event-trigger.m */; };
 		7985F60B127086D700148B52 /* CouchEventDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 7985F60A127086D700148B52 /* CouchEventDescription.m */; };
 		7985F648127093D800148B52 /* CouchMouseMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7985F647127093D800148B52 /* CouchMouseMenuController.m */; };
@@ -36,6 +37,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7955A55912719F3B009B4CCF /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		7985F603127081A600148B52 /* event-trigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "event-trigger.h"; sourceTree = "<group>"; };
 		7985F604127081A600148B52 /* event-trigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "event-trigger.m"; sourceTree = "<group>"; };
 		7985F609127086D700148B52 /* CouchEventDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouchEventDescription.h; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7955A55912719F3B009B4CCF /* Credits.rtf */,
 				8D1107310486CEB800E47090 /* CouchMouse-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -233,6 +236,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				7955A55A12719F3B009B4CCF /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
