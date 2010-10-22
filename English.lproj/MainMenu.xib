@@ -136,7 +136,7 @@
 				<int key="NSWindowStyleMask">3</int>
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{235, 280}, {485, 240}}</string>
-				<int key="NSWTFlags">611845120</int>
+				<int key="NSWTFlags">1685586944</int>
 				<string key="NSWindowTitle">Configure CouchMouse</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
