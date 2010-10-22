@@ -56,7 +56,6 @@
 - (IBAction) changeKey: (NSButton*)sender
 {
 	NSNumber *buttonCode = [buttonCodes objectForKey: sender];
-	NSLog(@"Button Code: %@ from %@\n", buttonCode, sender);
 	[keyboardMessage setTitleWithMnemonic: @"Please enter now a key for this button."];
 	[configurationDialog makeFirstResponder: self];
 	setupButtonCode = buttonCode;

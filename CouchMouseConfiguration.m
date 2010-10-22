@@ -72,7 +72,6 @@
 - (CGKeyCode) getKeyCodeForRemoteButton: (int) buttonKey
 {
 	NSNumber *key = [[[NSUserDefaults standardUserDefaults] dictionaryForKey: @"keyCodes"] objectForKey: [NSString stringWithFormat: @"button-%i", (NSInteger)buttonKey]];
-	NSLog(@"g %@ => %@\n", [NSString stringWithFormat: @"button-%i", (NSInteger)buttonKey], key);
 	
 	if (key != nil)
 		return [key intValue];
@@ -84,7 +83,7 @@
 {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	NSMutableDictionary *keyCodes = [NSMutableDictionary dictionaryWithDictionary: [defaults dictionaryForKey: @"keyCodes"]];
-	NSLog(@"s %@ => %i\n", [NSString stringWithFormat: @"button-%@", buttonKey], (NSInteger)keyCode);
+
 	[keyCodes setObject: [NSNumber numberWithInteger: (NSInteger)keyCode] forKey: [NSString stringWithFormat: @"button-%@", buttonKey]];
 
 	[defaults setObject: keyCodes forKey: @"keyCodes"];
