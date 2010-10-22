@@ -10,17 +10,17 @@
 
 void postKeyEvent(CGKeyCode keyCode, BOOL isDown)
 {
-    CGEventRef theEvent = CGEventCreateKeyboardEvent(NULL, keyCode, isDown);
-    CGEventPost(kCGHIDEventTap, theEvent);
-    CFRelease(theEvent);
+	CGEventRef theEvent = CGEventCreateKeyboardEvent(NULL, keyCode, isDown);
+	CGEventPost(kCGHIDEventTap, theEvent);
+	CFRelease(theEvent);
 }
 
 void postMouseEvent(CGEventType type, const CGPoint point, CGMouseButton button)
 {
-    CGEventRef theEvent = CGEventCreateMouseEvent(NULL, type, point, button);
-    CGEventSetType(theEvent, type);
-    CGEventPost(kCGHIDEventTap, theEvent);
-    CFRelease(theEvent);
+	CGEventRef theEvent = CGEventCreateMouseEvent(NULL, type, point, button);
+	CGEventSetType(theEvent, type);
+	CGEventPost(kCGHIDEventTap, theEvent);
+	CFRelease(theEvent);
 }
 
 void postMouseMove(CGPoint point)
