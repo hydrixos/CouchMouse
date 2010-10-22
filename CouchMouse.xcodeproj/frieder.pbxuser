@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 347}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+			sepNavWindowFrame = "{{15, 138}, {1465, 915}}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* CouchMouseAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 735}}";
+			sepNavSelRange = "{94, 67}";
+			sepNavVisRange = "{0, 338}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* CouchMouseAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 735}}";
+			sepNavSelRange = "{161, 0}";
+			sepNavVisRange = "{0, 394}";
+			sepNavWindowFrame = "{{38, 117}, {1465, 915}}";
+		};
+	};
+	256AC3F00F4B6AF500CF3369 /* CouchMouse_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {977, 649}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 151}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 79C8FD911258D937006C8AF1 /* CouchMouse */;
+		activeTarget = 8D1107260486CEB800E47090 /* CouchMouse */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* CouchMouse */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 79C8FDA21258D955006C8AF1 /* Code sense */;
+		executables = (
+			79C8FD911258D937006C8AF1 /* CouchMouse */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1109,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 309363061;
+			PBXWorkspaceStateSaveDate = 309363061;
+		};
+		perUserProjectItems = {
+			7985F6341270939D00148B52 /* PBXTextBookmark */ = 7985F6341270939D00148B52 /* PBXTextBookmark */;
+			7985F64912709B0E00148B52 /* PBXTextBookmark */ = 7985F64912709B0E00148B52 /* PBXTextBookmark */;
+			7985F8631270C65200148B52 /* PBXTextBookmark */ = 7985F8631270C65200148B52 /* PBXTextBookmark */;
+			7985F8641270C65200148B52 /* PBXTextBookmark */ = 7985F8641270C65200148B52 /* PBXTextBookmark */;
+			7985F8651270C65200148B52 /* PBXTextBookmark */ = 7985F8651270C65200148B52 /* PBXTextBookmark */;
+			7985F8671270C65200148B52 /* PBXTextBookmark */ = 7985F8671270C65200148B52 /* PBXTextBookmark */;
+			7985F8681270C65200148B52 /* PBXTextBookmark */ = 7985F8681270C65200148B52 /* PBXTextBookmark */;
+			7985F9541270EA9B00148B52 /* PBXBookmark */ = 7985F9541270EA9B00148B52 /* PBXBookmark */;
+			7985F9B01270F8C300148B52 /* PBXTextBookmark */ = 7985F9B01270F8C300148B52 /* PBXTextBookmark */;
+			7985F9F21270FC2900148B52 /* PBXTextBookmark */ = 7985F9F21270FC2900148B52 /* PBXTextBookmark */;
+			7985F9F31270FC2900148B52 /* PBXTextBookmark */ = 7985F9F31270FC2900148B52 /* PBXTextBookmark */;
+			7985F9F61270FC2900148B52 /* PBXTextBookmark */ = 7985F9F61270FC2900148B52 /* PBXTextBookmark */;
+			7985F9F71270FC2900148B52 /* PBXTextBookmark */ = 7985F9F71270FC2900148B52 /* PBXTextBookmark */;
+			7985F9F81270FC2900148B52 /* PBXTextBookmark */ = 7985F9F81270FC2900148B52 /* PBXTextBookmark */;
+			7985F9F91270FC2900148B52 /* PBXTextBookmark */ = 7985F9F91270FC2900148B52 /* PBXTextBookmark */;
+			7985F9FA1270FC2900148B52 /* PBXTextBookmark */ = 7985F9FA1270FC2900148B52 /* PBXTextBookmark */;
+			7985F9FB1270FC2900148B52 /* PBXTextBookmark */ = 7985F9FB1270FC2900148B52 /* PBXTextBookmark */;
+			7985F9FC1270FC2900148B52 /* PBXTextBookmark */ = 7985F9FC1270FC2900148B52 /* PBXTextBookmark */;
+			7985F9FD1270FC2900148B52 /* PBXTextBookmark */ = 7985F9FD1270FC2900148B52 /* PBXTextBookmark */;
+			7985F9FE1270FC2900148B52 /* PBXTextBookmark */ = 7985F9FE1270FC2900148B52 /* PBXTextBookmark */;
+			7985FA071270FCA500148B52 /* PBXTextBookmark */ = 7985FA071270FCA500148B52 /* PBXTextBookmark */;
+			7985FA081270FCA500148B52 /* PBXTextBookmark */ = 7985FA081270FCA500148B52 /* PBXTextBookmark */;
+			7985FA161270FCF900148B52 /* PBXTextBookmark */ = 7985FA161270FCF900148B52 /* PBXTextBookmark */;
+			7985FA261270FF9900148B52 /* PBXTextBookmark */ = 7985FA261270FF9900148B52 /* PBXTextBookmark */;
+			7985FA271270FF9900148B52 /* PBXTextBookmark */ = 7985FA271270FF9900148B52 /* PBXTextBookmark */;
+			79CC965B126DEEB7005FE0E4 /* PBXTextBookmark */ = 79CC965B126DEEB7005FE0E4 /* PBXTextBookmark */;
+			79CC965D126DEEB7005FE0E4 /* PBXTextBookmark */ = 79CC965D126DEEB7005FE0E4 /* PBXTextBookmark */;
+			79CC96A5126DF32A005FE0E4 /* PBXTextBookmark */ = 79CC96A5126DF32A005FE0E4 /* PBXTextBookmark */;
+			79CC96A6126DF32A005FE0E4 /* PlistBookmark */ = 79CC96A6126DF32A005FE0E4 /* PlistBookmark */;
+		};
+		sourceControlManager = 79C8FDA11258D955006C8AF1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	7985F603127081A600148B52 /* event-trigger.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1406, 787}}";
+			sepNavSelRange = "{429, 0}";
+			sepNavVisRange = "{0, 665}";
+			sepNavWindowFrame = "{{130, 33}, {1465, 915}}";
+		};
+	};
+	7985F604127081A600148B52 /* event-trigger.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 735}}";
+			sepNavSelRange = "{88, 0}";
+			sepNavVisRange = "{0, 944}";
+		};
+	};
+	7985F609127086D700148B52 /* CouchEventDescription.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 735}}";
+			sepNavSelRange = "{161, 0}";
+			sepNavVisRange = "{0, 606}";
+		};
+	};
+	7985F60A127086D700148B52 /* CouchEventDescription.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 735}}";
+			sepNavSelRange = "{161, 0}";
+			sepNavVisRange = "{0, 319}";
+			sepNavWindowFrame = "{{15, 138}, {1465, 915}}";
+		};
+	};
+	7985F6341270939D00148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79CC9741126E036E005FE0E4 /* HIDRemoteControlDevice.h */;
+		name = "HIDRemoteControlDevice.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2276;
+		vrLoc = 493;
+	};
+	7985F646127093D800148B52 /* CouchMouseMenuController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 735}}";
+			sepNavSelRange = "{164, 0}";
+			sepNavVisRange = "{0, 732}";
+		};
+	};
+	7985F647127093D800148B52 /* CouchMouseMenuController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 1105}}";
+			sepNavSelRange = "{247, 0}";
+			sepNavVisRange = "{49, 1316}";
+			sepNavWindowFrame = "{{15, 138}, {1465, 915}}";
+		};
+	};
+	7985F64912709B0E00148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79CC973F126E036E005FE0E4 /* AppleRemote.h */;
+		name = "AppleRemote.h: 5";
+		rLen = 1205;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 1781;
+		vrLoc = 0;
+	};
+	7985F6CA1270A71000148B52 /* CouchMouseConfigurationController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 735}}";
+			sepNavSelRange = "{173, 0}";
+			sepNavVisRange = "{0, 900}";
+			sepNavWindowFrame = "{{38, 117}, {1465, 915}}";
+		};
+	};
+	7985F6CB1270A71000148B52 /* CouchMouseConfigurationController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 884}}";
+			sepNavSelRange = "{173, 0}";
+			sepNavVisRange = "{0, 1603}";
+			sepNavWindowFrame = "{{107, 54}, {1465, 915}}";
+		};
+	};
+	7985F6CF1270A82200148B52 /* CouchMouseConfiguration.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1406, 764}}";
+			sepNavSelRange = "{657, 25}";
+			sepNavVisRange = "{0, 817}";
+			sepNavWindowFrame = "{{61, 96}, {1465, 915}}";
+		};
+	};
+	7985F6D01270A82200148B52 /* CouchMouseConfiguration.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1859, 1209}}";
+			sepNavSelRange = "{3195, 0}";
+			sepNavVisRange = "{386, 2527}";
+			sepNavWindowFrame = "{{84, 75}, {1465, 915}}";
+		};
+	};
+	7985F8631270C65200148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79CC9746126E036E005FE0E4 /* RemoteControl.m */;
+		name = "RemoteControl.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 2629;
+	};
+	7985F8641270C65200148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79CC9745126E036E005FE0E4 /* RemoteControl.h */;
+		name = "RemoteControl.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1550;
+		vrLoc = 2225;
+	};
+	7985F8651270C65200148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79CC9743126E036E005FE0E4 /* MultiClickRemoteBehavior.h */;
+		name = "MultiClickRemoteBehavior.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2160;
+		vrLoc = 1473;
+	};
+	7985F8671270C65200148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79CC9744126E036E005FE0E4 /* MultiClickRemoteBehavior.m */;
+		name = "MultiClickRemoteBehavior.m: 14";
+		rLen = 0;
+		rLoc = 718;
+		rType = 0;
+		vrLen = 2011;
+		vrLoc = 6106;
+	};
+	7985F8681270C65200148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79CC9742126E036E005FE0E4 /* HIDRemoteControlDevice.m */;
+		name = "HIDRemoteControlDevice.m: 482";
+		rLen = 0;
+		rLoc = 15061;
+		rType = 0;
+		vrLen = 2172;
+		vrLoc = 14967;
+	};
+	7985F9541270EA9B00148B52 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7985F603127081A600148B52 /* event-trigger.h */;
+	};
+	7985F9B01270F8C300148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79CC9740126E036E005FE0E4 /* AppleRemote.m */;
+		name = "AppleRemote.m: 234";
+		rLen = 0;
+		rLoc = 11256;
+		rType = 0;
+		vrLen = 1657;
+		vrLoc = 10124;
+	};
+	7985F9F21270FC2900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7985F6CF1270A82200148B52 /* CouchMouseConfiguration.h */;
+		name = "CouchMouseConfiguration.h: 6";
+		rLen = 0;
+		rLoc = 163;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 0;
+	};
+	7985F9F31270FC2900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7985F6D01270A82200148B52 /* CouchMouseConfiguration.m */;
+		name = "CouchMouseConfiguration.m: 6";
+		rLen = 0;
+		rLoc = 163;
+		rType = 0;
+		vrLen = 2623;
+		vrLoc = 48;
+	};
+	7985F9F61270FC2900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7985F609127086D700148B52 /* CouchEventDescription.h */;
+		name = "CouchEventDescription.h: 6";
+		rLen = 0;
+		rLoc = 161;
+		rType = 0;
+		vrLen = 606;
+		vrLoc = 0;
+	};
+	7985F9F71270FC2900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7985F60A127086D700148B52 /* CouchEventDescription.m */;
+		name = "CouchEventDescription.m: 6";
+		rLen = 0;
+		rLoc = 161;
+		rType = 0;
+		vrLen = 319;
+		vrLoc = 0;
+	};
+	7985F9F81270FC2900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7985F603127081A600148B52 /* event-trigger.h */;
+		name = "event-trigger.h: 6";
+		rLen = 0;
+		rLoc = 88;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 0;
+	};
+	7985F9F91270FC2900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7985F604127081A600148B52 /* event-trigger.m */;
+		name = "event-trigger.m: 6";
+		rLen = 0;
+		rLoc = 88;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 0;
+	};
+	7985F9FA1270FC2900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* CouchMouseAppDelegate.h */;
+		name = "CouchMouseAppDelegate.h: 6";
+		rLen = 67;
+		rLoc = 94;
+		rType = 0;
+		vrLen = 338;
+		vrLoc = 0;
+	};
+	7985F9FB1270FC2900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79C8FDB512591A07006C8AF1 /* CouchMouseController.h */;
+		name = "CouchMouseController.h: 6";
+		rLen = 0;
+		rLoc = 160;
+		rType = 0;
+		vrLen = 906;
+		vrLoc = 0;
+	};
+	7985F9FC1270FC2900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79C8FDB612591A07006C8AF1 /* CouchMouseController.m */;
+		name = "CouchMouseController.m: 6";
+		rLen = 0;
+		rLoc = 160;
+		rType = 0;
+		vrLen = 1234;
+		vrLoc = 0;
+	};
+	7985F9FD1270FC2900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* CouchMouseAppDelegate.m */;
+		name = "CouchMouseAppDelegate.m: 6";
+		rLen = 0;
+		rLoc = 161;
+		rType = 0;
+		vrLen = 394;
+		vrLoc = 0;
+	};
+	7985F9FE1270FC2900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7985F6CB1270A71000148B52 /* CouchMouseConfigurationController.m */;
+		name = "CouchMouseConfigurationController.m: 6";
+		rLen = 0;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 1603;
+		vrLoc = 0;
+	};
+	7985FA071270FCA500148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7985F6CA1270A71000148B52 /* CouchMouseConfigurationController.h */;
+		name = "CouchMouseConfigurationController.h: 6";
+		rLen = 0;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 0;
+	};
+	7985FA081270FCA500148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7985F646127093D800148B52 /* CouchMouseMenuController.h */;
+		name = "CouchMouseMenuController.h: 6";
+		rLen = 0;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 0;
+	};
+	7985FA161270FCF900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7985F647127093D800148B52 /* CouchMouseMenuController.m */;
+		name = "CouchMouseMenuController.m: 19";
+		rLen = 0;
+		rLoc = 482;
+		rType = 0;
+		vrLen = 1296;
+		vrLoc = 3;
+	};
+	7985FA261270FF9900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7985F647127093D800148B52 /* CouchMouseMenuController.m */;
+		name = "CouchMouseMenuController.m: 11";
+		rLen = 0;
+		rLoc = 247;
+		rType = 0;
+		vrLen = 1316;
+		vrLoc = 49;
+	};
+	7985FA271270FF9900148B52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7985F603127081A600148B52 /* event-trigger.h */;
+		name = "event-trigger.h: 19";
+		rLen = 0;
+		rLoc = 429;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 0;
+	};
+	79C8FD911258D937006C8AF1 /* CouchMouse */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CouchMouse;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	79C8FDA11258D955006C8AF1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	79C8FDA21258D955006C8AF1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	79C8FDB512591A07006C8AF1 /* CouchMouseController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 735}}";
+			sepNavSelRange = "{160, 0}";
+			sepNavVisRange = "{0, 906}";
+			sepNavWindowFrame = "{{368, 68}, {1465, 915}}";
+		};
+	};
+	79C8FDB612591A07006C8AF1 /* CouchMouseController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 2834}}";
+			sepNavSelRange = "{160, 0}";
+			sepNavVisRange = "{0, 1234}";
+			sepNavWindowFrame = "{{109, 105}, {1465, 915}}";
+		};
+	};
+	79CC965B126DEEB7005FE0E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79CC965C126DEEB7005FE0E4 /* MouseController.h */;
+		name = "MouseController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 592;
+		vrLoc = 44;
+	};
+	79CC965C126DEEB7005FE0E4 /* MouseController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MouseController.h;
+		path = /Users/frieder/Documents/Software/Tools/RemoteMouse/MouseController.h;
+		sourceTree = "<absolute>";
+	};
+	79CC965D126DEEB7005FE0E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79CC965E126DEEB7005FE0E4 /* MouseController.m */;
+		name = "MouseController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 543;
+		vrLoc = 695;
+	};
+	79CC965E126DEEB7005FE0E4 /* MouseController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = MouseController.m;
+		path = /Users/frieder/Documents/Software/Tools/RemoteMouse/MouseController.m;
+		sourceTree = "<absolute>";
+	};
+	79CC96A5126DF32A005FE0E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	79CC96A6126DF32A005FE0E4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CouchMouse-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSUIElement,
+		);
+		name = "/Users/frieder/Documents/Software/Tools/CouchMouse/CouchMouse-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	79CC973F126E036E005FE0E4 /* AppleRemote.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 783}}";
+			sepNavSelRange = "{132, 1205}";
+			sepNavVisRange = "{0, 1781}";
+		};
+	};
+	79CC9740126E036E005FE0E4 /* AppleRemote.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 4069}}";
+			sepNavSelRange = "{11256, 0}";
+			sepNavVisRange = "{10124, 1657}";
+		};
+	};
+	79CC9741126E036E005FE0E4 /* HIDRemoteControlDevice.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1406, 936}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2434}";
+			sepNavWindowFrame = "{{153, 12}, {1465, 915}}";
+		};
+	};
+	79CC9742126E036E005FE0E4 /* HIDRemoteControlDevice.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 6565}}";
+			sepNavSelRange = "{15061, 0}";
+			sepNavVisRange = "{14967, 2172}";
+		};
+	};
+	79CC9743126E036E005FE0E4 /* MultiClickRemoteBehavior.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 1183}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1473, 2160}";
+		};
+	};
+	79CC9744126E036E005FE0E4 /* MultiClickRemoteBehavior.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 2821}}";
+			sepNavSelRange = "{718, 0}";
+			sepNavVisRange = "{6106, 2011}";
+		};
+	};
+	79CC9745126E036E005FE0E4 /* RemoteControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 1378}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2225, 1550}";
+		};
+	};
+	79CC9746126E036E005FE0E4 /* RemoteControl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 1547}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2629, 1624}";
+		};
+	};
+	8D1107260486CEB800E47090 /* CouchMouse */ = {
+		activeExec = 0;
+		executables = (
+			79C8FD911258D937006C8AF1 /* CouchMouse */,
+		);
+	};
+}
