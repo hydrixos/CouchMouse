@@ -10,11 +10,10 @@
 
 @implementation CouchMouseConfiguration
 
-@synthesize inputMode, mouseVelocity;
-
 -(void) dealloc
 {
 	[[NSUserDefaults standardUserDefaults] synchronize];
+	[super dealloc];
 }
 
 -(void) awakeFromNib

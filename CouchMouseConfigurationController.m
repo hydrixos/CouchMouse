@@ -28,6 +28,7 @@
 {
 	[configurationDialog center];
 	[configurationDialog makeKeyAndOrderFront: self];
+	[NSApp activateIgnoringOtherApps:YES];
 
 	mouseSpeedSlider.floatValue = configuration.mouseVelocity;
 }
